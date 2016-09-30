@@ -18,3 +18,7 @@ To run this program, you need to have a C compiler installed in your computer/mo
 [*] Much more
 
 
+[2.0.1]
+
+[*] Bug fixes
+
