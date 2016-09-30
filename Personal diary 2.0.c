@@ -1,4 +1,3 @@
-
 //Created by p32929
 //Add me in facebook: https://www.facebook.com/p32929
 
@@ -38,7 +37,6 @@ int main()
 
     FILE *out;
     out = fopen("Diary.txt", "a+");
-
     printf("\nEnter your choice:\n1. Use current date\n2. Enter custom date\n");
     scanf("%d", &c1);
     if(c1==1)
@@ -75,6 +73,7 @@ int main()
 
     out = fopen("Diary.txt", "a+");
     char act[1000];
+    printf("\n");
     for(i=0; i<n ; i++)
     {
         printf("#%s", sub[i]);
@@ -85,5 +84,4 @@ int main()
     fclose(out);
     printf("\n...::: Done for today. Sayonara!\n^_^ :::...\n...::: Made by p32929 :::...\n");
     return 0;
-
 }
