@@ -60,7 +60,7 @@ int main()
     FILE *in0;
     in0 = fopen("N.txt", "r");
     fscanf(in0, "%d", &n);
-    printf("Total activities = %d\n");
+    printf("Total activities = %d\n", n);
     fclose(in0);
 
     FILE *in1;
