@@ -1,5 +1,8 @@
-# Personal-Diary
+# Prerequisite
 To run this program, you need to have a C compiler installed in your computer/mobile...
+
+# Personal-Diary
+This program acts as a Personal Diary that tracks some of your daily activities and saves the activities in a file called Diary.txt
 
 #Changelog:
 
