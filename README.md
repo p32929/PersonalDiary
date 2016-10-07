@@ -25,3 +25,9 @@ This program acts as a Personal Diary that tracks some of your daily activities 
 
 [*] Bug fixes
 
+[2.0.2]
+
+[*] Bug fixes
+[*] Added serial before the activity name
+[*] Changed some words
+[*] Changed date formatting
