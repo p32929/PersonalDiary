@@ -36,5 +36,7 @@ This program acts as a Personal Diary that tracks some of your daily activities 
 
 # [2.0.3]
 
+[*] Bug fixes
+
 [*] Added last entry feature
 
