@@ -6,11 +6,11 @@ This program acts as a Personal Diary that tracks some of your daily activities 
 
 #Changelog:
 
-[1.0]
+# [1.0]
 
 [*] Initial release...
 
-[2.0]
+# [2.0]
 
 [*] Re-created from scratch
 
@@ -20,12 +20,11 @@ This program acts as a Personal Diary that tracks some of your daily activities 
 
 [*] Much more
 
-
-[2.0.1]
+# [2.0.1]
 
 [*] Bug fixes
 
-[2.0.2]
+# [2.0.2]
 
 [*] Bug fixes
 
@@ -34,4 +33,8 @@ This program acts as a Personal Diary that tracks some of your daily activities 
 [*] Changed some words
 
 [*] Changed date formatting
+
+# [2.0.3]
+
+[*] Added last entry feature
 
