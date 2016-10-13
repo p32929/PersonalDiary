@@ -40,3 +40,11 @@ This program acts as a Personal Diary that tracks some of your daily activities 
 
 [*] Added last entry feature
 
+# [2.0.4]
+
+[*] Bug fixes
+
+[*] Activities will no longer be written in one file called Diary.txt
+    It will be written inside Diary folder in  date format like dd-mm-yyyy.txt file
+ 
+ 
