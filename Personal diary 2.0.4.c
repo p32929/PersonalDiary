@@ -5,7 +5,7 @@
 #include<stdio.h>
 #include<time.h>
 #include<string.h>
-#include <direct.h>
+#include<direct.h>
 
 int main()
 {
