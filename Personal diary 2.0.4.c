@@ -5,6 +5,7 @@
 #include<stdio.h>
 #include<time.h>
 #include<string.h>
+#include <direct.h>
 
 int main()
 {
@@ -140,7 +141,4 @@ int main()
     fclose(out);
     printf("\n...::: Done for today. Sayonara!\n^_^ :::...\n...::: Made by p32929 :::...\n");
     return 0;
-
 }
-
-
