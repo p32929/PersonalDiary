@@ -40,7 +40,7 @@ This program acts as a Personal Diary that tracks some of your daily activities 
 
 [*] Added last entry feature
 
-# [2.0.4]
+# [2.0.4] [Last update]
 
 [*] Bug fixes
 
