@@ -47,7 +47,7 @@ int main()
     {
 
         char a[1000], g;
-        printf("... First time running :::...\n");
+        printf("...::: First time running :::...\n");
         printf("How many activities to check daily:\n");
         scanf("%d", &n);
         g=getchar();
