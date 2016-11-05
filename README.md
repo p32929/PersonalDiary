@@ -48,6 +48,7 @@ This program acts as a Personal Diary that tracks some of your daily activities 
     It will be written inside Diary folder in  date format like dd-mm-yyyy.txt file
  
  # [2.0.5] [Last update]
+ [*] Bug fixes
  [*] Now you don't have to think the number of subjects before inputting. Just input 0 when finished subject inputting :)
  
  
