@@ -45,10 +45,11 @@ int main()
     int n=0, i, c1;
     if (fopen("Sub.txt", "r") == NULL && fopen("N.txt", "r")==NULL)
     {
-
         char a[1000], g;
         printf("...::: First time running :::...\n");
-        printf("Enter the activity names:(Input 0 to end inputting subjects)\n");
+        printf("...::: Are you ready? Enter YES to continue :::...\n");
+        gets(a);
+        printf("...::: Enter the activity names :::...\n...::: Input 0 to end inputting :::...\n");
         FILE *s;
         s = fopen("Sub.txt", "w+");
         while(1)
@@ -65,7 +66,7 @@ int main()
         N = fopen("N.txt", "w+");
         fprintf(N, "%d", n);
         fclose(N);
-        printf("Done activity names inputting\nTotal subjects = %d\nPlease wait...\n\n",n);
+        printf("\n...::: Done inputting :::...\n...::: Total activities = %d :::...\n\n",n);
     }
 
     if(fopen("last.txt", "r")!=NULL)
@@ -150,7 +151,7 @@ int main()
     FILE *in0;
     in0 = fopen("N.txt", "r");
     fscanf(in0, "%d", &n);
-    printf("Total activities = %d\n",n);
+    printf("...::: Total activities = %d :::...\n",n);
     fclose(in0);
 
     FILE *in1;
@@ -174,8 +175,6 @@ int main()
     }
 
     fclose(out);
-    printf("\n...::: Done for today. Sayonara!\n^_^ :::...\n...::: Made by p32929 :::...\n");
+    printf("\n...::: Done for today!! Sayonara! ^_^ :::...\n...::: Made by p32929 :::...\n");
     return 0;
 }
-
-
