@@ -40,11 +40,14 @@ This program acts as a Personal Diary that tracks some of your daily activities 
 
 [*] Added last entry feature
 
-# [2.0.4] [Last update]
+# [2.0.4] 
 
 [*] Bug fixes
 
 [*] Activities will no longer be written in one file called Diary.txt
     It will be written inside Diary folder in  date format like dd-mm-yyyy.txt file
+ 
+ # [2.0.5] [Last update]
+ [*] Now you don't have to think the number of subjects before inputting. Just input 0 when finished subject inputting :)
  
  
