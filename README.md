@@ -1,61 +1,53 @@
 # Personal Diary
 
-A terminal diary written in C. Run it, pick a date, type in what you did that day, and it saves each day to its own file inside a `Diary` folder — `dd-mm-yyyy.txt`.
+A tiny diary for your terminal, written in C. Instead of a blank page, it asks you about the same few things every day, so writing a diary takes a minute. Each day is saved as its own plain text file that you can open anywhere.
 
-Use the newest file, `Personal diary 2.0.5.c`; the earlier ones are kept for history.
+This is one of my first C programs. It still works, and it is kept here as it was.
 
-## Prerequisites
+## Features
 
-A C compiler (`gcc`, `clang`, MinGW — anything).
+1. **Your own daily questions:** the first time you run it, you list the things you want to track, like "Study", "Exercise" or "Work".
+2. **Quick daily entry:** each day it goes through your list and you type one line for each.
+3. **Today or any date:** use today's date, or type a different date to fill in a day you missed.
+4. **One file per day:** entries are saved in a `Diary` folder, one text file per date.
+5. **Remembers your last entry,** so you can see when you last wrote.
 
 ## Build and run
+
+You only need a C compiler (`gcc`, `clang` or MinGW). Use the newest file, `Personal diary 2.0.5.c`. The older files are kept for history.
 
 ```bash
 gcc "Personal diary 2.0.5.c" -o diary
 ./diary
 ```
 
-Enter your activities one by one and type `0` when you're finished for that day.
+## How to use
+
+1. First run: type the names of the things you want to track, one per line, and type `0` when you are done.
+2. Choose `1` to use today's date, or `2` to type a date as `dd-mm-yyyy`.
+3. For each item on your list, type what you did and press Enter.
+4. Find your entries in the `Diary` folder next to the program.
+
+To change your list, delete `Sub.txt` and `N.txt` and run it again.
 
 ## Changelog
 
-**[2.0.5]** — Bug fixes. You no longer have to decide how many entries you'll write up front — just enter `0` when you're done.
-
-**[2.0.4]** — Bug fixes. Entries are no longer all dumped into one `Diary.txt`; each day gets its own `Diary/dd-mm-yyyy.txt`.
-
-**[2.0.3]** — Bug fixes, and a "last entry" feature.
-
-**[2.0.2]** — Bug fixes, serial numbers before each activity, reworded prompts, new date formatting.
-
-**[2.0.1]** — Bug fixes.
-
-**[2.0]** — Rewritten from scratch. Custom dates in, time out, plus much more.
-
-**[1.0]** — Initial release.
+1. **2.0.5:** bug fixes. You no longer have to say up front how many lines you will write.
+2. **2.0.4:** bug fixes. Each day gets its own file in the `Diary` folder instead of one big `Diary.txt`.
+3. **2.0.3:** bug fixes, and it shows your last entry.
+4. **2.0.2:** bug fixes, numbers before each item, clearer prompts and a new date format.
+5. **2.0.1:** bug fixes.
+6. **2.0:** rewritten from scratch, with custom dates.
+7. **1.0:** first version.
 
 ## Contributing
 
-Contributions are warmly welcomed and greatly appreciated! Whether it's a bug fix, new feature, or improvement, your input helps make this project better for everyone.
-
-Before submitting a pull request, please:
-
-1. Create an issue describing the feature or bug fix you'd like to work on
-2. Wait for discussion and approval to ensure alignment with project goals
-3. Fork the repository and create your feature branch
-4. Submit your pull request with a clear description of changes
-
-This approach helps avoid duplicate efforts and ensures smooth collaboration. Thank you for considering contributing!
+Contributions are very welcome, thank you! Before you start on a pull request, please open an issue and tell me what you would like to add or change. That way we can agree on it first, and your time is not wasted on something that might not fit. Thanks for helping make Personal Diary better.
 
 ## Share
 
-Sharing this repository with your friends is just one click away from here
+<a href="https://p32929.github.io/share/?repo=PersonalDiary"><img src="https://p32929.github.io/readme/share.svg" alt="Share this with your friends in just a click" width="420"></a>
 
-[![facebook](https://user-images.githubusercontent.com/6418354/179013321-ac1d1452-0689-493f-9066-940cf2302b6e.png)](https://www.facebook.com/sharer/sharer.php?u=https://github.com/p32929/PersonalDiary/)
-[![twitter](https://user-images.githubusercontent.com/6418354/179013351-7d8d6d1c-4ce2-46ab-bef8-4c4765a1b888.png)](https://twitter.com/intent/tweet?url=https://github.com/p32929/PersonalDiary/)
-[![tumblr](https://user-images.githubusercontent.com/6418354/179013343-3111f55a-3b90-40c7-8487-9777348672b0.png)](https://www.tumblr.com/share?v=3&u=https://github.com/p32929/PersonalDiary/)
-[![pocket](https://user-images.githubusercontent.com/6418354/179013334-b095c45f-becf-49f4-9ee1-5a731a9b1f85.png)](https://getpocket.com/save?url=https://github.com/p32929/PersonalDiary/)
-[![pinterest](https://user-images.githubusercontent.com/6418354/179013331-44cd9206-11b1-4b65-becb-5863b61c828f.png)](https://pinterest.com/pin/create/button/?url=https://github.com/p32929/PersonalDiary/)
-[![reddit](https://user-images.githubusercontent.com/6418354/179013338-7416ae3f-73ba-4522-86e1-1374d7082d22.png)](https://www.reddit.com/submit?url=https://github.com/p32929/PersonalDiary/)
-[![linkedin](https://user-images.githubusercontent.com/6418354/179013327-ca7b7102-1da8-4b1c-858f-1a6e5f21bd70.png)](https://www.linkedin.com/shareArticle?mini=true&url=https://github.com/p32929/PersonalDiary/)
-[![whatsapp](https://user-images.githubusercontent.com/6418354/179013353-f477fa0b-3e6f-4138-a357-c9991b23ff88.png)](https://api.whatsapp.com/send?text=https://github.com/p32929/PersonalDiary/)
+## Support
 
+<a href="https://p32929.github.io/support/"><img src="https://p32929.github.io/readme/support.svg" alt="If you like my works and want to support me, feel free to support" width="420"></a>
